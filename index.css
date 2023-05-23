@@ -67,10 +67,7 @@ img {
     height: 20%;
     display: flex;
     padding-bottom: 20px;
-
     background-color: transparent;
-
-
 
 }
 
@@ -82,7 +79,7 @@ img {
     color: white;
     line-height: 1.5;
     padding-bottom: 20px;
-
+    font-size: 16px;
     background-color: transparent;
 
 }
@@ -90,11 +87,10 @@ img {
 .title0 {
     background-color: #1f1e1e;
     width: 10%;
-    font-size: 70px;
+    font-size: 60px;
     color: rgb(224, 38, 38);
     text-align:right;
     margin-top: -25px;
-
     background-color: transparent;
 
 
@@ -103,7 +99,7 @@ img {
 .title1_3 {
     background-color: #1f1e1e;
     width: 100%;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
 
     background-color: transparent;
@@ -118,14 +114,14 @@ img {
 
 .title1_3 div:nth-child(1) {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     text-align:left;
 
 }
 
 .title1_3 div:nth-child(3) {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-align: end;
 
 }
@@ -248,7 +244,7 @@ img {
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 23%;
+    width: 26%;
     justify-content: center;
     align-content: center;
     cursor: pointer;

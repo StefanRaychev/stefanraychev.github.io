@@ -97,7 +97,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content:start;
-    font-size: 18px;
+    font-size: 17px;
     gap: 30px;
 }
 
@@ -121,7 +121,6 @@ body {
     height: 30%;
     display: flex;
     align-items: start;
-    margin-top: -80px;
 }
 
 .download_cv {
@@ -204,7 +203,7 @@ flex-direction: column;
 
 .cv_stats_minor_info {
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     text-align: end;
     line-height: 25px;
 }
@@ -245,7 +244,7 @@ flex-direction: column;
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 21%;
+    width: 23%;
     justify-content: center;
     align-content: center;
     cursor: pointer;
@@ -486,7 +485,7 @@ flex-direction: column;
 }
 .education_column_symbols {
     background-color: black;
-    width: 9%;
+    width: 10%;
     height: 90%;
 }
 
@@ -529,8 +528,9 @@ flex-direction: column;
     color: white;
     padding: 5px;
     text-align: justify;
-    font-size: 15px;
+    font-size: 14px;
     border-left: 1px solid white;
+    line-height: 18px;
 }
 
 .education_column_symbols {

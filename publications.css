@@ -83,7 +83,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 21%;
+    width: 23%;
     justify-content: center;
     align-content: center;
     cursor: pointer;
@@ -140,8 +140,8 @@ body {
 }
 
 .project_box {
-    width: 300px;
-    height: 400px;
+    width: 21%;
+    height: 31%;
     background-color: white;
     border: 1px solid red;
     margin-top: 20px;
