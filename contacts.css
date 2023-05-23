@@ -1,0 +1,424 @@
+@import 'https://use.fontawesome.com/releases/v6.2.0/css/all.css';
+
+body {
+    background-color: black;
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+/* navigation section with buttons*/
+.navigation {
+    background-color: black;
+    width: 15%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    gap: 20px;
+    position: fixed;
+    top: 100;
+    right: 0;
+    background-color: transparent;
+}
+
+.navigation > button {
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    padding: 18px;
+    margin-right: 30px;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 21%;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.navigation > button:hover{
+    padding-left: 10px;
+    transition: 0.7s;
+    width: fit-content;
+
+}
+
+.navigation > *:hover ::before{
+    font-size: 17px;
+    width: calc(30% - 16px);
+
+}
+
+#home:hover:before {
+    content:"Home";
+    font-size: 17px;
+}
+
+.navigation :nth-child(2):hover:before {
+    content:"About me!";
+    font-size: 17px;
+}
+
+.navigation :nth-child(3):hover:before {
+    content:"Projects - ";
+    font-size: 17px;
+}
+
+.navigation :nth-child(4):hover:before {
+    content:"Publications - ";
+    font-size: 17px;
+}
+
+.navigation :nth-child(5):hover:before {
+    content:"Contacts - ";
+    font-size: 17px;
+}
+
+
+/*title part*/
+.contacts_main_title {
+    width: 100vw;
+    height: 30vh;
+    background-color: black;
+    font-size: 60px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contacts_main_title div:nth-child(1) {
+    color: white;
+    opacity:0;
+    animation: drop .4s linear forwards;
+}
+
+.contacts_main_title div:nth-child(2) {
+    color: red;
+    opacity:0;
+    animation: drop .4s linear forwards .3s;
+}
+
+@keyframes drop {
+    0% {transform: translateY(-200px) scaleY(0.9); opacity: 0;}
+    50% {transform: translateY(0px) scaleY(1); opacity: 1;}
+    65% {transform: translateY(-17px) scaleY(.9); opacity: 1;}
+    75% {transform: translateY(-22px) scaleY(.9); opacity: 1;}
+    100% {transform: translateY(0px) scaleY(1); opacity: 1;}
+}
+
+/*main body part*/
+.contacts_main_body {
+    width: 100vw;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/*main body left column*/
+.contacts_left_column {
+    background-color: black;
+    width: 30%;
+    height: 100%;
+    text-align: justify;
+}
+
+.contacts_right_column {
+    background-color: green;
+    width: 50%;
+    height: 100%;
+}
+
+.contacts_left_column_title {
+    background-color: black;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.contacts_left_column_title div:nth-child(1) {
+    color: white;
+}
+
+.contacts_left_column_title div:nth-child(2) {
+    color: red;
+    padding-left: 13px;
+}
+
+.contacts_left_column_text {
+    background-color: black;
+    height: 25%;
+    color: white;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts_left_column_textIcons {
+    background-color: black;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.textIcon_box {
+    background-color: bisque;
+    width: 90%;
+    height: 90%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.textIcon_icon {
+    background-color: black;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textIcon_icon >* {
+    font-size: 40px;
+    color: red;
+}
+
+.textIcon_icon >*:hover {
+    font-size: 40px;
+    color: white;
+}
+
+.textIcon_text_part {
+    background-color: black;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.textIcon_title {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.textIcon_title div:nth-child(1) {
+    color: white;
+}
+
+.textIcon_title div:nth-child(2) {
+    color: red;
+}
+
+.textIcon_text {
+    color: white;
+    font-size: 15px; 
+}
+
+.contacts_left_column_icons {
+    height: 20%;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.contacts_left_column_icons > * {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 12%;
+    height: 70%;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.contacts_left_column_icons > *:hover {
+    font-size: 40px;
+    background-color: white;
+    color: red;
+}
+
+.button {
+animation: custom-pulse 1.5s infinite linear;
+}
+
+@keyframes custom-pulse {
+    0% {
+       transform: scale(0.95);
+       opacity: 0.8; 
+    }
+    50% {
+       transform: scale(1.05);
+       opacity: 1; }
+    100% {
+       transform: scale(0.95);
+       opacity: 0.8; }
+}
+
+
+/*main body right column*/
+.contacts_right_column_upperRow {
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts_right_column_upperRow input {
+    width: 25%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.contacts_right_column_center {
+    background-color: black;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts_right_column_center textarea {
+    width: 92%;
+    height: 70%;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+}
+
+.contacts_right_column_bottomRow {
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.contacts_right_column_bottomRow button {
+    width: 30%;
+    height: 50%;
+    border-radius: 50px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.contacts_right_column_center ::placeholder {
+    margin-bottom: 50px;
+    position: absolute;
+    top: 5px;
+    left: 5px
+}
+
+
+
+@media (max-width: 767px) {
+    .contacts_main_body {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 100px;
+    }
+
+    .contacts_main_body > * {
+        width: auto;
+        height: auto*5;
+    }
+
+    .navigation > button {
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 40px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+html {
+    height: 100%;
+    /* max-height: 600px; */
+
+    /*
+    width: 1000px;
+    background-color: hsla(200,40%,30%,.4);
+    background-image:   
+      url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+      url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+      url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position: 
+      0 20%,
+      0 100%,
+      0 50%,
+      0 100%,
+      0 0;
+    background-size: 
+      2500px,
+      800px,
+      500px 200px,
+      1000px,
+      400px 260px;
+    animation: 50s para infinite linear;
+    }
+  
+  @keyframes para {
+    100% {
+      background-position: 
+        -5000px 20%,
+        -800px 95%,
+        500px 50%,
+        1000px 100%,
+        400px 0;
+      }
+    }
+*/
