@@ -491,7 +491,7 @@ flex-direction: column;
 
 .education_column_texts {
     background-color: black;
-    width: 70%;
+    width: 80%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -528,7 +528,7 @@ flex-direction: column;
     color: white;
     padding: 5px;
     text-align: justify;
-    font-size: 14px;
+    font-size: 13px;
     border-left: 1px solid white;
     line-height: 18px;
 }
@@ -538,7 +538,7 @@ flex-direction: column;
     flex-direction: column;
     justify-content: baseline;
     align-items: end;
-    gap: 110px;
+    gap: 70px;
 }
 
 .education_column_symbols > button {
