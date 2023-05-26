@@ -538,7 +538,7 @@ flex-direction: column;
     flex-direction: column;
     justify-content: baseline;
     align-items: end;
-    gap: 70px;
+    gap: 85px;
 }
 
 .education_column_symbols > button {
