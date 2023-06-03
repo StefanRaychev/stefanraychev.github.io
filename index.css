@@ -301,11 +301,11 @@ img {
     }
   
     .photo {
-      width: 70%;
+      width: 60%;
       margin-right: 0;
       justify-content: center;
       align-items: center;
-      margin-top: 70px;
+      margin-top: 60px;
     }
   
     .text {
@@ -333,7 +333,7 @@ img {
     .text_title {
       width: 90%;
       text-align: center;
-      font-size: 15px;
+      font-size: 14px;
       text-align: justify;
 
     }
