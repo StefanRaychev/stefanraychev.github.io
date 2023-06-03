@@ -318,30 +318,36 @@ img {
       align-items:center;
     }
 
-    .title1_3 {
-        font-size: 20px;
+    .title2 {
+        font-size: 23px;
+    }
 
+    #www {
+        font-size: 20px;
+    }
+
+    .animation {
+        
     }
   
     .text_title {
       width: 90%;
       text-align: center;
-      font-size: 14px;
+      font-size: 16px;
       text-align: justify;
 
     }
   
     .navigation {
       flex-direction: row;
-      width: 100%;
       justify-content: center;
-      margin-top: 50px;
+      gap: 0px;
+      margin-top: -20px;
     }
   
     .navigation > button {
-      margin-right: 10px;
-      padding: 10px;
-      font-size: 40px;
+      margin: 10px;
+      font-size: 15px;
       width: auto;
     }
   }
