@@ -350,4 +350,13 @@ img {
       font-size: 15px;
       width: auto;
     }
+
+    .animation > div > div {
+        height:30px;
+        padding-right: 10px;
+        margin-bottom: 130px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+      }
   }
