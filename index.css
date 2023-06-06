@@ -359,4 +359,12 @@ img {
         justify-content: end;
         align-items: center;
       }
-  }
+
+    .navigation > button::before {
+      content: ""; /* Add empty content */
+      display: none; /* Hide the content */
+    }
+  
+
+}
+  
