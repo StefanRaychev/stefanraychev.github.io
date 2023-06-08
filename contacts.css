@@ -353,47 +353,88 @@ animation: custom-pulse 1.5s infinite linear;
         margin: 100px;
     }
 
-/*main body left column*/
-.contacts_left_column {
-    background-color: black;
-    width: 150%;
-    height: 100%;
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
+    /*main body left column*/
+    .contacts_left_column {
+        background-color: black;
+        width: 150%;
+        height: 100%;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 
-.contacts_left_column_icons {
-    height: 20%;
-    background-color: black;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 10px;
-    margin-left: 20px;
-}
+    .contacts_left_column_icons {
+        height: 20%;
+        background-color: black;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        margin-left: 20px;
+    }
 
-.contacts_left_column_icons > * {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size: 30px;
-    border-radius: 50%;
-    width: 12%;
-    height: 70%;
-    color: white;
-    background-color: red;
-    border: none;
-    cursor: pointer;
-}
+    .contacts_left_column_icons > * {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 30px;
+        border-radius: 50%;
+        width: 12%;
+        height: 70%;
+        color: white;
+        background-color: red;
+        border: none;
+        cursor: pointer;
+    }
+
+    .contacts_left_column_textIcons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contacts_left_column_icons > * {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 30px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        color: white;
+        background-color: red;
+        border: none;
+        cursor: pointer;
+    }
     
-.contacts_right_column {
-    width: 150%;
-    height: 100%;
-}
+    .contacts_left_column_icons > *:hover {
+        font-size: 30px;
+        background-color: white;
+        color: red;
+    }
+        
 
 
+
+
+
+    .contacts_right_column {
+        width: 150%;
+        height: 100%;
+    }
+
+    .contacts_right_column_upperRow {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+
+
+
+    
     .navigation > button {
         margin-right: 10px;
         padding: 10px;
