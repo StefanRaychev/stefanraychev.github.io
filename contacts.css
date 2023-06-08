@@ -358,8 +358,6 @@ animation: custom-pulse 1.5s infinite linear;
         flex-wrap: wrap;
     }
 
-
-
     .contacts_main_body {
         width: auto;
         height: auto;
@@ -437,8 +435,12 @@ animation: custom-pulse 1.5s infinite linear;
 
 
     .contacts_right_column {
+        display: flex;
+        flex-direction: column;
         width: 150%;
         height: 100%;
+        gap: 20px;
+        justify-content: center;    
     }
 
     .contacts_right_column_upperRow {
@@ -448,8 +450,21 @@ animation: custom-pulse 1.5s infinite linear;
         gap: 10px;
     }
 
+    .contacts_right_column_upperRow input {
+        width: 96%;
+        height: 30px;
+        border-radius: 10px;
+        border: none;
 
+    }
 
+    .contacts_right_column_center textarea {
+        width: 95%;
+        height: 200px;
+        border-radius: 10px;
+        border: none;
+        resize: none;
+    }
 
 
     .navigation > button {
