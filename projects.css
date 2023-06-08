@@ -223,10 +223,17 @@ body {
         justify-content: center;
         gap: 15px;
     }
-
+    .projects_left_side {
+        width: 0%;
+        background-color: black;
+    }
     .projects_main_body {
         height: auto;
-    }
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        width: auto;
+      }
 
     .project_box1 {
         width: auto;
@@ -255,13 +262,41 @@ body {
         align-items: center;
         justify-content: center;
     }
- 
-    
-      .navigation > button {
-        margin-right: 10px;
-        padding: 10px;
-        font-size: 40px;
-        width: 50%;
+
+    .navigation {
+        background-color: black;
+        width: 100%; /* Set the width to 100% to span the entire width of the page */
+        height: 15%; /* Adjust the desired height */
+        display: flex;
+        flex-direction: row; /* Change the direction to row for horizontal alignment */
+        justify-content: flex-start; /* Align items to the left */
+        align-items: center; /* Center items vertically */
+        gap: 10px;
+        position: fixed;
+        top: 100px; /* Position it at the top of the page */
+        left: 0; /* Position it on the left side of the page */
+        background-color: transparent;
     }
 
+    }
+  
+    .navigation > button {
+      margin: 10px;
+      font-size: 15px;
+      width: auto;
+    }
+
+    .animation > div > div {
+        height:30px;
+        padding-right: 10px;
+        margin-bottom: 130px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+      }
+
+    .navigation > button::before {
+      content: ""; /* Add empty content */
+      display: none; /* Hide the content */
+    }
 }
