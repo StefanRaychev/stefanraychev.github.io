@@ -366,6 +366,8 @@ animation: custom-pulse 1.5s infinite linear;
         align-items: center;
         justify-content: center;
         margin: 100px;
+        margin-top: 50px;
+        background-color: black;
     }
 
     /*main body left column*/
