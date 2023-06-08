@@ -434,12 +434,12 @@ animation: custom-pulse 1.5s infinite linear;
 
 
 
-    
+
     .navigation > button {
         margin-right: 10px;
         padding: 10px;
-        font-size: 40px;
-        width: 100%;
+        font-size: 20px;
+        width: 70%;
     }
 }
 
