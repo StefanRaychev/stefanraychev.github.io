@@ -292,7 +292,7 @@ img {
 /* Add media query for screens smaller than 768px */
 @media (max-width: 767px) {
     .page {
-        height: 70%;
+        height: 100vh;
     }
     .border {
       flex-direction: column;
@@ -336,7 +336,7 @@ img {
     .text_title {
       width: 90%;
       text-align: center;
-      font-size: 12px;
+      font-size: 16px;
       text-align: justify;
 
     }
@@ -368,6 +368,21 @@ img {
       display: none; /* Hide the content */
     }
   
+}
+
+@media (max-width: 615px) {
+    .text_title {
+        width: 90%;
+        text-align: center;
+        font-size: 10px;
+        text-align: justify;
+  
+      }
+
+      .navigation > button {
+        margin: 5px;
+        font-size: 15px;
+        width: auto;
+      }
 
 }
-  
