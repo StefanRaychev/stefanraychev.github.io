@@ -291,17 +291,20 @@ img {
 
 /* Add media query for screens smaller than 768px */
 @media (max-width: 767px) {
+    .page {
+        height: 70%;
+    }
     .border {
       flex-direction: column;
-      height: auto;
       display: flex;
       align-items: center;
       justify-content: center;
       width: auto;
+      height:auto;
     }
   
     .photo {
-      width: 60%;
+      width: 50%;
       margin-right: 0;
       justify-content: center;
       align-items: center;
@@ -333,7 +336,7 @@ img {
     .text_title {
       width: 90%;
       text-align: center;
-      font-size: 14px;
+      font-size: 12px;
       text-align: justify;
 
     }
