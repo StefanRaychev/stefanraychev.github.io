@@ -184,7 +184,7 @@ body {
 @media (max-width: 767px) {
     .projects_main_title {
         width: auto;
-        height: 200px;
+        height: auto;
         background-color: black;
         font-size: 40px;
         font-weight: 900;
@@ -193,6 +193,7 @@ body {
         justify-content: center;
         flex-wrap: wrap;
         align-content: center;
+        padding-bottom: 50px;
     }
 
     .projects_main_body {
@@ -218,6 +219,11 @@ body {
         font-size: 20px;
         width: 70%;
     }
+
+    .navigation > button::before {
+        content: "";
+        display: none;
+      }
 
 
 }
