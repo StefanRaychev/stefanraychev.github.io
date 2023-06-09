@@ -487,6 +487,12 @@ animation: custom-pulse 1.5s infinite linear;
         font-size: 20px;
         width: 70%;
     }
+
+    
+    .navigation > button::before {
+        content: "";
+        display: none;
+      }
 }
 
 
