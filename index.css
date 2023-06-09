@@ -292,7 +292,7 @@ img {
 /* Add media query for screens smaller than 768px */
 @media (max-width: 767px) {
     .page {
-        height: 100vh;
+        height: auto;
     }
     .border {
       flex-direction: column;
