@@ -432,6 +432,10 @@ animation: custom-pulse 1.5s infinite linear;
     }
         
 
+    .textIcon_box {
+        display: flex;
+        gap: 10px;
+    }
 
 
 
