@@ -568,6 +568,24 @@ flex-direction: column;
         width: auto;
     }
 
+    .cv_info {
+        display: flex;
+        align-items: baseline;
+        justify-content: baseline;
+        flex-direction: column; 
+        gap: 20px;
+    }
+
+    .cv_info_title {
+        font-size: 25px;
+    }
+
+
+
+
+
+
+
     .cv_columns {
         font-size: 50px;
     }
