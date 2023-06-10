@@ -585,7 +585,11 @@ flex-direction: column;
     }
 
 
-
+.info_cv_button {
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -605,7 +609,17 @@ flex-direction: column;
     }
 
     .cv_stats {
-        width: auto;
+        width: 300px;
+        margin-bottom: -150px;
+        margin-top: 50px;
+    }
+
+    .cv_stats_major_numbers {
+        font-size: 50px;
+    }
+
+    .cv_stats_minor_info {
+        font-size: 14px;
     }
 
 .skills_content {
@@ -664,5 +678,17 @@ flex-direction: column;
 .education_column_texts {
     height: auto;
 }
+
+.navigation > button {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 70%;
+}
+
+.navigation > button::before {
+    content: "";
+    display: none;
+  }
 
 }
