@@ -616,6 +616,10 @@ flex-direction: column;
 
 }
 
+.skills_text {
+    font-size: 15px;
+}
+
 .skills_row {
     display: flex;
     gap: 5px;
@@ -623,6 +627,18 @@ flex-direction: column;
 
 }
 
+.education {
+    height: auto;
+}
 
+.skills_title {
+    font-size: 30px;
+    width: 250px;
+    margin-top: 200px;
+}
+
+.education_column_symbols {
+    
+}
 
 }
