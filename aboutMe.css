@@ -637,8 +637,28 @@ flex-direction: column;
     margin-top: 200px;
 }
 
+.education_left_column {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: 200px;
+    margin-left: -30px;
+    margin-right: 30px;
+
+}
+
+.education_main_body {
+    flex-direction: column;
+    padding-top: 200px;
+}
+
 .education_column_symbols {
-    
+    content: "";
+    display: none;
+}
+
+.education_column_texts {
+    height: auto;
 }
 
 }
