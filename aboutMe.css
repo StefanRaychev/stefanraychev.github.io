@@ -553,6 +553,10 @@ flex-direction: column;
 }
 
 @media (max-width: 767px) {
+
+
+
+
     .cv_title {
         display: flex;
         flex-direction: column;
@@ -603,6 +607,22 @@ flex-direction: column;
     .cv_stats {
         width: auto;
     }
+
+.skills_content {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    height: auto;
+
+}
+
+.skills_row {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+
+}
+
 
 
 }
