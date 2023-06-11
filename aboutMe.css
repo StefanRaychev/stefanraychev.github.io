@@ -554,6 +554,10 @@ flex-direction: column;
 
 @media (max-width: 767px) {
 
+    body {
+        background-color: black;
+    }
+
     .cv_title {
         display: flex;
         flex-direction: column;
@@ -607,8 +611,6 @@ flex-direction: column;
 
     .cv_stats {
         width: 300px;
-        margin-bottom: -150px;
-        margin-top: 50px;
     }
 
     .cv_stats_major_numbers {
@@ -640,12 +642,12 @@ flex-direction: column;
 
 .education {
     height: auto;
+    margin-top: 100px;
 }
 
 .skills_title {
     font-size: 30px;
     width: 270px;
-    margin-top: 30%;
 }
 
 .education_left_column, .education_right_column {
